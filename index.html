@@ -136,11 +136,23 @@
         }
 
         .about-list li::before {
-            content: "♦";
-            position: absolute;
-            left: 0;
-            color: var(--gold);
-        }
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.6em;
+    width: 8px;
+    height: 8px;
+    background-color: var(--gold);
+    border-radius: 45% 55% 60% 40%;
+    transform: rotate(15deg);
+}
+
+        .about-list li:nth-child(2)::before {
+    transform: rotate(-20deg) scale(0.9);
+}
+.about-list li:nth-child(3)::before {
+    transform: rotate(25deg) scale(1.1);
+}
 
         .btn-download {
             display: inline-block;
