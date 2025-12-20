@@ -42,7 +42,7 @@
             background-image: url('aline_topfoto.jpg');
             background-size: cover;
             background-position: top center;
-            height: 23em;
+            height: 500px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -84,27 +84,11 @@
         }
 
         .about-container {
-            max-width: 1200px;
+            max-width: 800px;
             margin: 0 auto;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            gap: 60px;
-        }
-
-        .about-image {
-            flex: 1;
-            max-width: 450px;
-        }
-
-        .about-image img {
-            width: 100%;
-            height: auto;
-            border-radius: 12px;
         }
 
         .about-content {
-            flex: 1;
             text-align: left;
         }
 
@@ -153,6 +137,8 @@
             font-weight: 600;
             font-size: 1rem;
             transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         .btn-download:hover {
@@ -242,17 +228,11 @@
         /* Responsive */
         @media (max-width: 900px) {
             .about-container {
-                flex-direction: column;
                 text-align: center;
             }
 
             .about-content {
                 text-align: center;
-            }
-
-            .about-image {
-                order: -1;
-                max-width: 350px;
             }
 
             .about-list li {
@@ -283,7 +263,7 @@
 
         @media (max-width: 600px) {
             .header {
-                height: 18em;
+                height: 300px;
             }
 
             .logo {
@@ -338,16 +318,13 @@
     <!-- Header with Logo -->
     <header class="header">
         <div class="logo-wrapper">
-            <img src="https://github.com/alinexue/alinexue/blob/main/logo_alinexue-weiss.png?raw=true" alt="AlineXue Logo" class="logo">
+            <img src="logo_alinexue-weiss.png" alt="AlineXue Logo" class="logo">
         </div>
     </header>
 
     <!-- About Section -->
     <section class="about">
         <div class="about-container">
-            <div class="about-image">
-                <img src="alinexue_1.png" alt="Aline Xue">
-            </div>
             <div class="about-content">
                 <h1>Heyy!</h1>
                 <p>Ich bin Aline und komme ursprünglich aus Kärnten. Schon als Kind hab' ich aus reinem Spaß meine Kreativität in Videos gesteckt. Seit 2018 mein erstes virales Posting mein Leben verändert und sich der Spass über die Jahre zu meiner Berufung entwickelt hat. Heute lebe ich als Content Creatorin in Wien und könnte mir mein Leben nicht mehr anders vorstellen!</p>
@@ -364,24 +341,24 @@
     <!-- Partners Section -->
     <section class="partners">
         <div class="partners-grid">
-            <div class="partner-logo"><img src="https://github.com/alinexue/alinexue/blob/add0dd2b756c2162f6164e2aa5d594627c1b43dc/images/drei-logo.png?raw=true" alt="Drei Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
-            <div class="partner-logo"><img src="https://github.com/alinexue/alinexue/blob/main/images/nivea-logo.png?raw=true" alt="Nivea Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
-            <div class="partner-logo"><img src="https://github.com/alinexue/alinexue/blob/main/images/a1-logo.png?raw=true" alt="A1 Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
-            <div class="partner-logo"><img src="https://github.com/alinexue/alinexue/blob/main/images/always-logo.png?raw=true" alt="Always Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
-            <div class="partner-logo"><img src="https://github.com/alinexue/alinexue/blob/main/images/bank-austria-logo.png?raw=true" alt="Bank Austria Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
-            <div class="partner-logo"><img src="https://github.com/alinexue/alinexue/blob/main/images/bb-logo.png?raw=true" alt="Bijou Brigitte Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
-            <div class="partner-logo"><img src="https://github.com/alinexue/alinexue/blob/main/images/ca-logo.png?raw=true" alt="C&A Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
-            <div class="partner-logo"><img src="https://github.com/alinexue/alinexue/blob/main/images/fanta-logo.png?raw=true" alt="Fanta Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
-            <div class="partner-logo"><img src="https://github.com/alinexue/alinexue/blob/main/images/kellys-logo.png?raw=true" alt="Kelly's Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
-            <div class="partner-logo"><img src="https://github.com/alinexue/alinexue/blob/main/images/naturebox-logo.png?raw=true" alt="Nature Box Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
-            <div class="partner-logo"><img src="https://github.com/alinexue/alinexue/blob/main/images/oralb-logo.png?raw=true" alt="Oral-B Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
-            <div class="partner-logo"><img src="https://github.com/alinexue/alinexue/blob/main/images/samsung-logo.png?raw=true" alt="Samsung Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
-            <div class="partner-logo"><img src="https://github.com/alinexue/alinexue/blob/main/images/sky_logo.png?raw=true" alt="Sky Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
-            <div class="partner-logo"><img src="https://github.com/alinexue/alinexue/blob/main/images/spar-logo.png?raw=true" alt="Spar Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
-            <div class="partner-logo"><img src="https://github.com/alinexue/alinexue/blob/main/images/starbucks-logo.png?raw=true" alt="Starbucks Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
-            <div class="partner-logo"><img src="https://github.com/alinexue/alinexue/blob/main/images/universal-logo.png?raw=true" alt="Universal Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
-            <div class="partner-logo"><img src="https://github.com/alinexue/alinexue/blob/main/images/wien-logo.png?raw=true" alt="Stadt Wien Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
-            <div class="partner-logo"><img src="https://github.com/alinexue/alinexue/blob/main/images/bank-austria-logo.png?raw=true" alt="Bank Austria Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
+            <div class="partner-logo"><img src="images/drei-logo.png" alt="Drei Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
+            <div class="partner-logo"><img src="images/nivea-logo.png" alt="Nivea Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
+            <div class="partner-logo"><img src="images/a1-logo.png" alt="A1 Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
+            <div class="partner-logo"><img src="images/always-logo.png" alt="Always Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
+            <div class="partner-logo"><img src="images/bank-austria-logo.png" alt="Bank Austria Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
+            <div class="partner-logo"><img src="images/bb-logo.png" alt="Bijou Brigitte Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
+            <div class="partner-logo"><img src="images/ca-logo.png" alt="C&A Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
+            <div class="partner-logo"><img src="images/fanta-logo.png" alt="Fanta Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
+            <div class="partner-logo"><img src="images/kellys-logo.png" alt="Kelly's Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
+            <div class="partner-logo"><img src="images/naturebox-logo.png" alt="Nature Box Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
+            <div class="partner-logo"><img src="images/oralb-logo.png" alt="Oral-B Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
+            <div class="partner-logo"><img src="images/samsung-logo.png" alt="Samsung Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
+            <div class="partner-logo"><img src="images/sky_logo.png" alt="Sky Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
+            <div class="partner-logo"><img src="images/spar-logo.png" alt="Spar Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
+            <div class="partner-logo"><img src="images/starbucks-logo.png" alt="Starbucks Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
+            <div class="partner-logo"><img src="images/universal-logo.png" alt="Universal Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
+            <div class="partner-logo"><img src="images/wien-logo.png" alt="Stadt Wien Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
+            <div class="partner-logo"><img src="images/bank-austria-logo.png" alt="Bank Austria Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"></div>
         </div>
     </section>
 
