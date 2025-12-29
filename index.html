@@ -51,18 +51,22 @@
 
         .logo-wrapper {
             position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translate(-50%, 50%);
-            z-index: 10;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 10;
+
+    width: min(700px, 90vw); /* DAS ist der Schlüssel */
         }
 
         .logo {
-            max-width: 700px;
+            
+
             width: 100%;
-            display: block;
-            opacity: 0;
-            animation: fadeIn 1.5s ease-out forwards;
+    height: auto;
+    display: block;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-out forwards;
         }
 
         @keyframes fadeIn {
