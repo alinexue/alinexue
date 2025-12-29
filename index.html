@@ -51,34 +51,33 @@
 
         .logo-wrapper {
             position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    z-index: 10;
+    bottom: -50px;
+    left: 0;
+    right: 0;
 
-    width: min(500px, 70vw); /* DAS ist der Schlüssel */
+    display: flex;
+    justify-content: center;
+
+    z-index: 10;
         }
 
         .logo {
             
 
-            width: 100%;
+             width: 500px;
+    max-width: 70vw;
     height: auto;
     display: block;
+
     opacity: 0;
     animation: fadeIn 1.5s ease-out forwards;
         }
 
         @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+       
 
         /* About Section */
         .about {
